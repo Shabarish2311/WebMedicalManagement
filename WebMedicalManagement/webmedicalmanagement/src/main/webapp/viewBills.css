@@ -1,0 +1,120 @@
+/* viewBills.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content Area Styles */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Page Header Styles */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Back Link Styles */
+.back-link {
+    color: #3498db;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Bill List Section Styles */
+.bill-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.bill-list h1 {
+    color: #3498db;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table Styles */
+.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bill-table th,
+.bill-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.bill-table th {
+    background-color: #3498db;
+    color: white;
+    font-weight: 600;
+}
+
+.bill-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #219653;
+}
+
+/* No Bills Message */
+.bill-table tbody tr td[colspan="4"] {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    padding: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .page-header h1 {
+        margin-bottom: 10px;
+    }
+
+    .bill-table {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,120 @@
+/* updateMedicines.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content Area Styles */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Page Header Styles */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.page-header h1 {
+    color: #3498db; /* Pharmacy-related blue color */
+}
+
+/* Back Link Styles */
+.back-link {
+    color: #3498db;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Update Medicine Section Styles */
+.update-medicine {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #777;
+}
+
+.form-group input[type=text],
+.form-group input[type=number],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Keeps padding inside the width */
+}
+
+.form-group textarea {
+   resize: vertical;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #27ae60;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #219653;
+}
+
+/* Error Message Styles */
+.error-message {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+
+    .page-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .page-header h1 {
+        margin-bottom: 10px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
