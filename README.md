@@ -164,22 +164,8 @@ The project is developed as an Eclipse Dynamic Web Project.
 
 The main source packages are organized as follows:
 
-WebMedicalManagement/
-│
-├── src/main/java/
-│   ├── dao/
-│   ├── daoImpl/
-│   ├── DBUtility/
-│   ├── model/
-│   ├── servlets/
-│   └── test/
-│
-├── src/main/webapp/
-│   ├── JSP pages
-│   ├── CSS files
-│   └── Web resources
-│
-└── README.md
+<img width="820" height="486" alt="image" src="https://github.com/user-attachments/assets/31218c52-e6df-4408-b84d-ae0425bdd8de" />
+
 
 *Note: The directory layout may vary depending on the Eclipse project configuration.*
 
